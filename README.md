@@ -1,3 +1,1 @@
 # microblog
-flask practice
-# microblog
