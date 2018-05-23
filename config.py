@@ -7,7 +7,7 @@ class Config:
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     MICROBLOG_MAIL_SUBJECT_PREFIX = '[MICROBLOG]'
-    MICROBLOG_ADMIN = os.environ.get('FLASK_ADMIN')
+    MICROBLOG_ADMIN = os.environ.get('MICROLOG_ADMIN')
     MICROBLOG_MAIL_SENDER = 'MIRCOBLOG<dachuan.chengdu@hotmail.com>'
 
     @staticmethod
