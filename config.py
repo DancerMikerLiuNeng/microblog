@@ -9,7 +9,7 @@ class Config:
     MICROBLOG_MAIL_SUBJECT_PREFIX = '[MICROBLOG]'
     MICROBLOG_ADMIN = os.environ.get('MICROBLOG_ADMIN')
     MICROBLOG_MAIL_SENDER = 'MIRCOBLOG<dachuan.chengdu@hotmail.com>'
-
+    MICROBLOG_POSTS_PER_PAGE = 20
     @staticmethod
     def init(app):
         pass
