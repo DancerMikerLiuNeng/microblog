@@ -10,6 +10,7 @@ class Config:
     MICROBLOG_ADMIN = os.environ.get('MICROBLOG_ADMIN')
     MICROBLOG_MAIL_SENDER = 'MIRCOBLOG<dachuan.chengdu@hotmail.com>'
     MICROBLOG_POSTS_PER_PAGE = 20
+    MICROBLOG_FOLLOWERS_PER_PAGE = 50
     @staticmethod
     def init(app):
         pass
